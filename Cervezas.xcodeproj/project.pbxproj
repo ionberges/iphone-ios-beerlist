@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17F829B16BFF497008E8237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17F829A16BFF497008E8237 /* UIKit.framework */; };
+		C17F829D16BFF497008E8237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17F829C16BFF497008E8237 /* Foundation.framework */; };
+		C17F829F16BFF497008E8237 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17F829E16BFF497008E8237 /* CoreGraphics.framework */; };
+		C17F82A516BFF497008E8237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C17F82A316BFF497008E8237 /* InfoPlist.strings */; };
+		C17F82A716BFF497008E8237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82A616BFF497008E8237 /* main.m */; };
+		C17F82AB16BFF497008E8237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82AA16BFF497008E8237 /* AppDelegate.m */; };
+		C17F82AD16BFF497008E8237 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C17F82AC16BFF497008E8237 /* Default.png */; };
+		C17F82AF16BFF497008E8237 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17F82AE16BFF497008E8237 /* Default@2x.png */; };
+		C17F82B116BFF497008E8237 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17F82B016BFF497008E8237 /* Default-568h@2x.png */; };
+		C17F82B416BFF497008E8237 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F82B216BFF497008E8237 /* MainStoryboard.storyboard */; };
+		C17F82B716BFF497008E8237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82B616BFF497008E8237 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C17F829616BFF497008E8237 /* Cervezas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cervezas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17F829A16BFF497008E8237 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C17F829C16BFF497008E8237 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C17F829E16BFF497008E8237 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C17F82A216BFF497008E8237 /* Cervezas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cervezas-Info.plist"; sourceTree = "<group>"; };
+		C17F82A416BFF497008E8237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C17F82A616BFF497008E8237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C17F82A816BFF497008E8237 /* Cervezas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cervezas-Prefix.pch"; sourceTree = "<group>"; };
+		C17F82A916BFF497008E8237 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C17F82AA16BFF497008E8237 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C17F82AC16BFF497008E8237 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C17F82AE16BFF497008E8237 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C17F82B016BFF497008E8237 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C17F82B316BFF497008E8237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C17F82B516BFF497008E8237 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C17F82B616BFF497008E8237 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17F829316BFF497008E8237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F829B16BFF497008E8237 /* UIKit.framework in Frameworks */,
+				C17F829D16BFF497008E8237 /* Foundation.framework in Frameworks */,
+				C17F829F16BFF497008E8237 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17F828B16BFF497008E8237 = {
+			isa = PBXGroup;
+			children = (
+				C17F82A016BFF497008E8237 /* Cervezas */,
+				C17F829916BFF497008E8237 /* Frameworks */,
+				C17F829716BFF497008E8237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C17F829716BFF497008E8237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17F829616BFF497008E8237 /* Cervezas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17F829916BFF497008E8237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17F829A16BFF497008E8237 /* UIKit.framework */,
+				C17F829C16BFF497008E8237 /* Foundation.framework */,
+				C17F829E16BFF497008E8237 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17F82A016BFF497008E8237 /* Cervezas */ = {
+			isa = PBXGroup;
+			children = (
+				C17F82A916BFF497008E8237 /* AppDelegate.h */,
+				C17F82AA16BFF497008E8237 /* AppDelegate.m */,
+				C17F82B216BFF497008E8237 /* MainStoryboard.storyboard */,
+				C17F82B516BFF497008E8237 /* ViewController.h */,
+				C17F82B616BFF497008E8237 /* ViewController.m */,
+				C17F82A116BFF497008E8237 /* Supporting Files */,
+			);
+			path = Cervezas;
+			sourceTree = "<group>";
+		};
+		C17F82A116BFF497008E8237 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C17F82A216BFF497008E8237 /* Cervezas-Info.plist */,
+				C17F82A316BFF497008E8237 /* InfoPlist.strings */,
+				C17F82A616BFF497008E8237 /* main.m */,
+				C17F82A816BFF497008E8237 /* Cervezas-Prefix.pch */,
+				C17F82AC16BFF497008E8237 /* Default.png */,
+				C17F82AE16BFF497008E8237 /* Default@2x.png */,
+				C17F82B016BFF497008E8237 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17F829516BFF497008E8237 /* Cervezas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17F82BA16BFF497008E8237 /* Build configuration list for PBXNativeTarget "Cervezas" */;
+			buildPhases = (
+				C17F829216BFF497008E8237 /* Sources */,
+				C17F829316BFF497008E8237 /* Frameworks */,
+				C17F829416BFF497008E8237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cervezas;
+			productName = Cervezas;
+			productReference = C17F829616BFF497008E8237 /* Cervezas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17F828D16BFF497008E8237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Fernando Alava";
+			};
+			buildConfigurationList = C17F829016BFF497008E8237 /* Build configuration list for PBXProject "Cervezas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C17F828B16BFF497008E8237;
+			productRefGroup = C17F829716BFF497008E8237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17F829516BFF497008E8237 /* Cervezas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17F829416BFF497008E8237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F82A516BFF497008E8237 /* InfoPlist.strings in Resources */,
+				C17F82AD16BFF497008E8237 /* Default.png in Resources */,
+				C17F82AF16BFF497008E8237 /* Default@2x.png in Resources */,
+				C17F82B116BFF497008E8237 /* Default-568h@2x.png in Resources */,
+				C17F82B416BFF497008E8237 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17F829216BFF497008E8237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F82A716BFF497008E8237 /* main.m in Sources */,
+				C17F82AB16BFF497008E8237 /* AppDelegate.m in Sources */,
+				C17F82B716BFF497008E8237 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C17F82A316BFF497008E8237 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17F82A416BFF497008E8237 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C17F82B216BFF497008E8237 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17F82B316BFF497008E8237 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17F82B816BFF497008E8237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C17F82B916BFF497008E8237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17F82BB16BFF497008E8237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				INFOPLIST_FILE = "Cervezas/Cervezas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C17F82BC16BFF497008E8237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				INFOPLIST_FILE = "Cervezas/Cervezas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17F829016BFF497008E8237 /* Build configuration list for PBXProject "Cervezas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F82B816BFF497008E8237 /* Debug */,
+				C17F82B916BFF497008E8237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17F82BA16BFF497008E8237 /* Build configuration list for PBXNativeTarget "Cervezas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F82BB16BFF497008E8237 /* Debug */,
+				C17F82BC16BFF497008E8237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17F828D16BFF497008E8237 /* Project object */;
+}
