@@ -17,7 +17,39 @@
 		C17F82AF16BFF497008E8237 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17F82AE16BFF497008E8237 /* Default@2x.png */; };
 		C17F82B116BFF497008E8237 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17F82B016BFF497008E8237 /* Default-568h@2x.png */; };
 		C17F82B416BFF497008E8237 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F82B216BFF497008E8237 /* MainStoryboard.storyboard */; };
-		C17F82B716BFF497008E8237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82B616BFF497008E8237 /* ViewController.m */; };
+		C17F82BF16BFF577008E8237 /* ListadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82BE16BFF577008E8237 /* ListadoViewController.m */; };
+		C17F82C216BFF691008E8237 /* beers.plist in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C116BFF691008E8237 /* beers.plist */; };
+		C17F82DE16BFF69F008E8237 /* beer_allagash_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C416BFF69F008E8237 /* beer_allagash_white.jpg */; };
+		C17F82DF16BFF69F008E8237 /* beer_anchor_christmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C516BFF69F008E8237 /* beer_anchor_christmas.jpg */; };
+		C17F82E016BFF69F008E8237 /* beer_anchor_steam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C616BFF69F008E8237 /* beer_anchor_steam.jpg */; };
+		C17F82E116BFF69F008E8237 /* beer_bruery_saison_rue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C716BFF69F008E8237 /* beer_bruery_saison_rue.jpg */; };
+		C17F82E216BFF69F008E8237 /* beer_cantillon_iris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C816BFF69F008E8237 /* beer_cantillon_iris.jpg */; };
+		C17F82E316BFF69F008E8237 /* beer_capuccino_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82C916BFF69F008E8237 /* beer_capuccino_stout.jpg */; };
+		C17F82E416BFF69F008E8237 /* beer_de_struise_pannepot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CA16BFF69F008E8237 /* beer_de_struise_pannepot.jpg */; };
+		C17F82E516BFF69F008E8237 /* beer_dortmunder_gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CB16BFF69F008E8237 /* beer_dortmunder_gold.jpg */; };
+		C17F82E616BFF69F008E8237 /* beer_founders_kbs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CC16BFF69F008E8237 /* beer_founders_kbs.jpg */; };
+		C17F82E716BFF69F008E8237 /* beer_great_divide_yeti_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CD16BFF69F008E8237 /* beer_great_divide_yeti_stout.jpg */; };
+		C17F82E816BFF69F008E8237 /* beer_harviestoun_old_engine_oil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CE16BFF69F008E8237 /* beer_harviestoun_old_engine_oil.jpg */; };
+		C17F82E916BFF69F008E8237 /* beer_hennepin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82CF16BFF69F008E8237 /* beer_hennepin.jpg */; };
+		C17F82EA16BFF69F008E8237 /* beer_hitacho_lacto_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D016BFF69F008E8237 /* beer_hitacho_lacto_stout.jpg */; };
+		C17F82EB16BFF69F008E8237 /* beer_jolly_pumpkin_la_roja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D116BFF69F008E8237 /* beer_jolly_pumpkin_la_roja.jpg */; };
+		C17F82EC16BFF69F008E8237 /* beer_lion_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D216BFF69F008E8237 /* beer_lion_stout.jpg */; };
+		C17F82ED16BFF69F008E8237 /* beer_orval_trappist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D316BFF69F008E8237 /* beer_orval_trappist.jpg */; };
+		C17F82EE16BFF69F008E8237 /* beer_paradox_smokehead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D416BFF69F008E8237 /* beer_paradox_smokehead.jpg */; };
+		C17F82EF16BFF69F008E8237 /* beer_port_brewing_shark_attack_red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D516BFF69F008E8237 /* beer_port_brewing_shark_attack_red.jpg */; };
+		C17F82F016BFF69F008E8237 /* beer_pretty_things_jack_dor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D616BFF69F008E8237 /* beer_pretty_things_jack_dor.jpg */; };
+		C17F82F116BFF69F008E8237 /* beer_rodenbach_grand_cru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D716BFF69F008E8237 /* beer_rodenbach_grand_cru.jpg */; };
+		C17F82F216BFF69F008E8237 /* beer_rogue_dead_guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D816BFF69F008E8237 /* beer_rogue_dead_guy.jpg */; };
+		C17F82F316BFF69F008E8237 /* beer_samuel_smith_oatmeal_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82D916BFF69F008E8237 /* beer_samuel_smith_oatmeal_stout.jpg */; };
+		C17F82F416BFF69F008E8237 /* beer_smuttynose_barleywine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82DA16BFF69F008E8237 /* beer_smuttynose_barleywine.jpg */; };
+		C17F82F516BFF69F008E8237 /* beer_weihenstephaner_hefeweissbier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82DB16BFF69F008E8237 /* beer_weihenstephaner_hefeweissbier.jpg */; };
+		C17F82F616BFF69F008E8237 /* beer_westvleteren_abt_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82DC16BFF69F008E8237 /* beer_westvleteren_abt_12.jpg */; };
+		C17F82F716BFF69F008E8237 /* beer_whiteback_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F82DD16BFF69F008E8237 /* beer_whiteback_white.jpg */; };
+		C17F82FA16BFF6BF008E8237 /* Cervezas.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82F916BFF6BF008E8237 /* Cervezas.m */; };
+		C17F82FD16BFF6CF008E8237 /* Cerveza.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F82FC16BFF6CF008E8237 /* Cerveza.m */; };
+		C17F830416C0FF25008E8237 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F830316C0FF25008E8237 /* DetalleViewController.m */; };
+		C17F830716C0FF47008E8237 /* EditarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F830616C0FF47008E8237 /* EditarViewController.m */; };
+		C17F830A16C11345008E8237 /* SeleccionarFotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F830916C11344008E8237 /* SeleccionarFotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +67,45 @@
 		C17F82AE16BFF497008E8237 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C17F82B016BFF497008E8237 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C17F82B316BFF497008E8237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C17F82B516BFF497008E8237 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C17F82B616BFF497008E8237 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C17F82BD16BFF577008E8237 /* ListadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoViewController.h; sourceTree = "<group>"; };
+		C17F82BE16BFF577008E8237 /* ListadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoViewController.m; sourceTree = "<group>"; };
+		C17F82C116BFF691008E8237 /* beers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beers.plist; sourceTree = "<group>"; };
+		C17F82C416BFF69F008E8237 /* beer_allagash_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_allagash_white.jpg; sourceTree = "<group>"; };
+		C17F82C516BFF69F008E8237 /* beer_anchor_christmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_anchor_christmas.jpg; sourceTree = "<group>"; };
+		C17F82C616BFF69F008E8237 /* beer_anchor_steam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_anchor_steam.jpg; sourceTree = "<group>"; };
+		C17F82C716BFF69F008E8237 /* beer_bruery_saison_rue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_bruery_saison_rue.jpg; sourceTree = "<group>"; };
+		C17F82C816BFF69F008E8237 /* beer_cantillon_iris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_cantillon_iris.jpg; sourceTree = "<group>"; };
+		C17F82C916BFF69F008E8237 /* beer_capuccino_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_capuccino_stout.jpg; sourceTree = "<group>"; };
+		C17F82CA16BFF69F008E8237 /* beer_de_struise_pannepot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_de_struise_pannepot.jpg; sourceTree = "<group>"; };
+		C17F82CB16BFF69F008E8237 /* beer_dortmunder_gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_dortmunder_gold.jpg; sourceTree = "<group>"; };
+		C17F82CC16BFF69F008E8237 /* beer_founders_kbs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_founders_kbs.jpg; sourceTree = "<group>"; };
+		C17F82CD16BFF69F008E8237 /* beer_great_divide_yeti_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_great_divide_yeti_stout.jpg; sourceTree = "<group>"; };
+		C17F82CE16BFF69F008E8237 /* beer_harviestoun_old_engine_oil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_harviestoun_old_engine_oil.jpg; sourceTree = "<group>"; };
+		C17F82CF16BFF69F008E8237 /* beer_hennepin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_hennepin.jpg; sourceTree = "<group>"; };
+		C17F82D016BFF69F008E8237 /* beer_hitacho_lacto_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_hitacho_lacto_stout.jpg; sourceTree = "<group>"; };
+		C17F82D116BFF69F008E8237 /* beer_jolly_pumpkin_la_roja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_jolly_pumpkin_la_roja.jpg; sourceTree = "<group>"; };
+		C17F82D216BFF69F008E8237 /* beer_lion_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_lion_stout.jpg; sourceTree = "<group>"; };
+		C17F82D316BFF69F008E8237 /* beer_orval_trappist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_orval_trappist.jpg; sourceTree = "<group>"; };
+		C17F82D416BFF69F008E8237 /* beer_paradox_smokehead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_paradox_smokehead.jpg; sourceTree = "<group>"; };
+		C17F82D516BFF69F008E8237 /* beer_port_brewing_shark_attack_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_port_brewing_shark_attack_red.jpg; sourceTree = "<group>"; };
+		C17F82D616BFF69F008E8237 /* beer_pretty_things_jack_dor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_pretty_things_jack_dor.jpg; sourceTree = "<group>"; };
+		C17F82D716BFF69F008E8237 /* beer_rodenbach_grand_cru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_rodenbach_grand_cru.jpg; sourceTree = "<group>"; };
+		C17F82D816BFF69F008E8237 /* beer_rogue_dead_guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_rogue_dead_guy.jpg; sourceTree = "<group>"; };
+		C17F82D916BFF69F008E8237 /* beer_samuel_smith_oatmeal_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_samuel_smith_oatmeal_stout.jpg; sourceTree = "<group>"; };
+		C17F82DA16BFF69F008E8237 /* beer_smuttynose_barleywine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_smuttynose_barleywine.jpg; sourceTree = "<group>"; };
+		C17F82DB16BFF69F008E8237 /* beer_weihenstephaner_hefeweissbier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_weihenstephaner_hefeweissbier.jpg; sourceTree = "<group>"; };
+		C17F82DC16BFF69F008E8237 /* beer_westvleteren_abt_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_westvleteren_abt_12.jpg; sourceTree = "<group>"; };
+		C17F82DD16BFF69F008E8237 /* beer_whiteback_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_whiteback_white.jpg; sourceTree = "<group>"; };
+		C17F82F816BFF6BF008E8237 /* Cervezas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cervezas.h; sourceTree = "<group>"; };
+		C17F82F916BFF6BF008E8237 /* Cervezas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cervezas.m; sourceTree = "<group>"; };
+		C17F82FB16BFF6CE008E8237 /* Cerveza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cerveza.h; sourceTree = "<group>"; };
+		C17F82FC16BFF6CF008E8237 /* Cerveza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cerveza.m; sourceTree = "<group>"; };
+		C17F830216C0FF25008E8237 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		C17F830316C0FF25008E8237 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		C17F830516C0FF47008E8237 /* EditarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarViewController.h; sourceTree = "<group>"; };
+		C17F830616C0FF47008E8237 /* EditarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarViewController.m; sourceTree = "<group>"; };
+		C17F830816C11344008E8237 /* SeleccionarFotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleccionarFotoViewController.h; sourceTree = "<group>"; };
+		C17F830916C11344008E8237 /* SeleccionarFotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleccionarFotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +152,19 @@
 		C17F82A016BFF497008E8237 /* Cervezas */ = {
 			isa = PBXGroup;
 			children = (
+				C17F82C316BFF69F008E8237 /* Fotos */,
+				C17F82C016BFF64D008E8237 /* Modelo */,
+				C17F82BD16BFF577008E8237 /* ListadoViewController.h */,
+				C17F82BE16BFF577008E8237 /* ListadoViewController.m */,
+				C17F830216C0FF25008E8237 /* DetalleViewController.h */,
+				C17F830316C0FF25008E8237 /* DetalleViewController.m */,
 				C17F82A916BFF497008E8237 /* AppDelegate.h */,
 				C17F82AA16BFF497008E8237 /* AppDelegate.m */,
 				C17F82B216BFF497008E8237 /* MainStoryboard.storyboard */,
-				C17F82B516BFF497008E8237 /* ViewController.h */,
-				C17F82B616BFF497008E8237 /* ViewController.m */,
+				C17F830816C11344008E8237 /* SeleccionarFotoViewController.h */,
+				C17F830916C11344008E8237 /* SeleccionarFotoViewController.m */,
+				C17F830516C0FF47008E8237 /* EditarViewController.h */,
+				C17F830616C0FF47008E8237 /* EditarViewController.m */,
 				C17F82A116BFF497008E8237 /* Supporting Files */,
 			);
 			path = Cervezas;
@@ -105,6 +182,51 @@
 				C17F82B016BFF497008E8237 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C17F82C016BFF64D008E8237 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				C17F82C116BFF691008E8237 /* beers.plist */,
+				C17F82F816BFF6BF008E8237 /* Cervezas.h */,
+				C17F82F916BFF6BF008E8237 /* Cervezas.m */,
+				C17F82FB16BFF6CE008E8237 /* Cerveza.h */,
+				C17F82FC16BFF6CF008E8237 /* Cerveza.m */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		C17F82C316BFF69F008E8237 /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				C17F82C416BFF69F008E8237 /* beer_allagash_white.jpg */,
+				C17F82C516BFF69F008E8237 /* beer_anchor_christmas.jpg */,
+				C17F82C616BFF69F008E8237 /* beer_anchor_steam.jpg */,
+				C17F82C716BFF69F008E8237 /* beer_bruery_saison_rue.jpg */,
+				C17F82C816BFF69F008E8237 /* beer_cantillon_iris.jpg */,
+				C17F82C916BFF69F008E8237 /* beer_capuccino_stout.jpg */,
+				C17F82CA16BFF69F008E8237 /* beer_de_struise_pannepot.jpg */,
+				C17F82CB16BFF69F008E8237 /* beer_dortmunder_gold.jpg */,
+				C17F82CC16BFF69F008E8237 /* beer_founders_kbs.jpg */,
+				C17F82CD16BFF69F008E8237 /* beer_great_divide_yeti_stout.jpg */,
+				C17F82CE16BFF69F008E8237 /* beer_harviestoun_old_engine_oil.jpg */,
+				C17F82CF16BFF69F008E8237 /* beer_hennepin.jpg */,
+				C17F82D016BFF69F008E8237 /* beer_hitacho_lacto_stout.jpg */,
+				C17F82D116BFF69F008E8237 /* beer_jolly_pumpkin_la_roja.jpg */,
+				C17F82D216BFF69F008E8237 /* beer_lion_stout.jpg */,
+				C17F82D316BFF69F008E8237 /* beer_orval_trappist.jpg */,
+				C17F82D416BFF69F008E8237 /* beer_paradox_smokehead.jpg */,
+				C17F82D516BFF69F008E8237 /* beer_port_brewing_shark_attack_red.jpg */,
+				C17F82D616BFF69F008E8237 /* beer_pretty_things_jack_dor.jpg */,
+				C17F82D716BFF69F008E8237 /* beer_rodenbach_grand_cru.jpg */,
+				C17F82D816BFF69F008E8237 /* beer_rogue_dead_guy.jpg */,
+				C17F82D916BFF69F008E8237 /* beer_samuel_smith_oatmeal_stout.jpg */,
+				C17F82DA16BFF69F008E8237 /* beer_smuttynose_barleywine.jpg */,
+				C17F82DB16BFF69F008E8237 /* beer_weihenstephaner_hefeweissbier.jpg */,
+				C17F82DC16BFF69F008E8237 /* beer_westvleteren_abt_12.jpg */,
+				C17F82DD16BFF69F008E8237 /* beer_whiteback_white.jpg */,
+			);
+			path = Fotos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +285,33 @@
 				C17F82AF16BFF497008E8237 /* Default@2x.png in Resources */,
 				C17F82B116BFF497008E8237 /* Default-568h@2x.png in Resources */,
 				C17F82B416BFF497008E8237 /* MainStoryboard.storyboard in Resources */,
+				C17F82C216BFF691008E8237 /* beers.plist in Resources */,
+				C17F82DE16BFF69F008E8237 /* beer_allagash_white.jpg in Resources */,
+				C17F82DF16BFF69F008E8237 /* beer_anchor_christmas.jpg in Resources */,
+				C17F82E016BFF69F008E8237 /* beer_anchor_steam.jpg in Resources */,
+				C17F82E116BFF69F008E8237 /* beer_bruery_saison_rue.jpg in Resources */,
+				C17F82E216BFF69F008E8237 /* beer_cantillon_iris.jpg in Resources */,
+				C17F82E316BFF69F008E8237 /* beer_capuccino_stout.jpg in Resources */,
+				C17F82E416BFF69F008E8237 /* beer_de_struise_pannepot.jpg in Resources */,
+				C17F82E516BFF69F008E8237 /* beer_dortmunder_gold.jpg in Resources */,
+				C17F82E616BFF69F008E8237 /* beer_founders_kbs.jpg in Resources */,
+				C17F82E716BFF69F008E8237 /* beer_great_divide_yeti_stout.jpg in Resources */,
+				C17F82E816BFF69F008E8237 /* beer_harviestoun_old_engine_oil.jpg in Resources */,
+				C17F82E916BFF69F008E8237 /* beer_hennepin.jpg in Resources */,
+				C17F82EA16BFF69F008E8237 /* beer_hitacho_lacto_stout.jpg in Resources */,
+				C17F82EB16BFF69F008E8237 /* beer_jolly_pumpkin_la_roja.jpg in Resources */,
+				C17F82EC16BFF69F008E8237 /* beer_lion_stout.jpg in Resources */,
+				C17F82ED16BFF69F008E8237 /* beer_orval_trappist.jpg in Resources */,
+				C17F82EE16BFF69F008E8237 /* beer_paradox_smokehead.jpg in Resources */,
+				C17F82EF16BFF69F008E8237 /* beer_port_brewing_shark_attack_red.jpg in Resources */,
+				C17F82F016BFF69F008E8237 /* beer_pretty_things_jack_dor.jpg in Resources */,
+				C17F82F116BFF69F008E8237 /* beer_rodenbach_grand_cru.jpg in Resources */,
+				C17F82F216BFF69F008E8237 /* beer_rogue_dead_guy.jpg in Resources */,
+				C17F82F316BFF69F008E8237 /* beer_samuel_smith_oatmeal_stout.jpg in Resources */,
+				C17F82F416BFF69F008E8237 /* beer_smuttynose_barleywine.jpg in Resources */,
+				C17F82F516BFF69F008E8237 /* beer_weihenstephaner_hefeweissbier.jpg in Resources */,
+				C17F82F616BFF69F008E8237 /* beer_westvleteren_abt_12.jpg in Resources */,
+				C17F82F716BFF69F008E8237 /* beer_whiteback_white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +324,12 @@
 			files = (
 				C17F82A716BFF497008E8237 /* main.m in Sources */,
 				C17F82AB16BFF497008E8237 /* AppDelegate.m in Sources */,
-				C17F82B716BFF497008E8237 /* ViewController.m in Sources */,
+				C17F82BF16BFF577008E8237 /* ListadoViewController.m in Sources */,
+				C17F82FA16BFF6BF008E8237 /* Cervezas.m in Sources */,
+				C17F82FD16BFF6CF008E8237 /* Cerveza.m in Sources */,
+				C17F830416C0FF25008E8237 /* DetalleViewController.m in Sources */,
+				C17F830716C0FF47008E8237 /* EditarViewController.m in Sources */,
+				C17F830A16C11345008E8237 /* SeleccionarFotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
